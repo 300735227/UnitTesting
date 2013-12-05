@@ -1,11 +1,13 @@
 package com.example.ezhealth.test;
 
+import android.test.AndroidTestCase;
+
 import com.example.ezhealth.AddDoctor;
 import com.example.ezhealth.AddReceptionist;
 
 import junit.framework.TestCase;
 
-public class TestAddDoctor extends TestCase {
+public class TestAddDoctor extends AndroidTestCase {
 
 public void testConstructorRecp(){
 		
